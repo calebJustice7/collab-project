@@ -2,8 +2,8 @@ const router = require('express').Router();
 const AWS = require('aws-sdk');
 
 AWS.config.update({
-    accessKeyId: 'AKIAYY5YIH3EBLVVJP3N',
-    secretAccessKey: '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',
+    accessKeyId: '',
+    secretAccessKey: '',
 });
 
 let s3 = new AWS.S3();
